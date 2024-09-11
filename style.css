@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-nav .navbar-brand {
+    color: #2D2D2D;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-nav a {
+    text-decoration: none;
+}
+
+.custom-nav .tagline {
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+    color: #0179d4 !important;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .active {
+    color: #0179d4 !important;
+}
+
+.jumbotron {
+    background: #fff;
+    text-align: center;
+}
+
+.jumbotron .row {
+    text-align: left;
+}
+
+.jumbotron .row .col-md-6 .name {
+    font-size: 18px;
+    font-weight: 400;
+    color: #0179d4;
+}
+
+.jumbotron .row .col-md-6 h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.jumbotron .row .col-md-6 .subtitle {
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-weight: 400;
+}
+
+.jumbotron .row .col-md-6 span {
+    color: #0179d4;
+    text-decoration: underline;
+}
+
+.jumbotron .row .col-md-6 .btn-custom {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background: #0179d4;
+    border: 1px solid #0179d4;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.jumbotron .row .col-md-6 .btn-custom:hover {
+    background: #0179d4;
+}
+
+.jumbotron .row .col-md-6 .btn-transparent {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    background: transparent;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.jumbotron .row .col-md-6 .btn-transparent:hover {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    background: transparent;
+    padding: 10px 24px 10px 24px;
+}
+
+.container .section-project h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.container .row .col-xl-4 .card {
+    border: none;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-12 h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-12 p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #757384;
+}
+
+.container .row .col-xl-4 .my-shadow {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width: 576px) {
+    .container .custom-count .bg-green {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .jumbotron .row .col-md-6 h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+.container .custom-count .bg-green {
+    border: 1.6px solid #0179d4;
+    width: 100%;
+    padding: 26px;
+    border-radius: 4px;
+}
+
+.container .custom-count .bg-green h4 {
+    font-weight: 700;
+    color: #0179d4;
+}
+
+.container .custom-count .bg-green .btn-more {
+    border: 1px solid #0179d4;
+    padding: 10px 24px 10px 24px;
+    color: #0179d4;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .custom-count .bg-green .btn-more:hover {
+    color: #fff;
+    background: #0179d4;
+}
+
+.container .custom-count .bg-green .btn-custom {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background: #0179d4;
+    border: 1px solid #0179d4;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .custom-count .bg-green .btn-custom:hover {
+    background: #0179d4;
+}
+
+.container .section-why h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.container .section-why .row .col-lg-4 .header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.container .section-why .row .col-lg-4 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .section-skill {
+    text-align: center;
+}
+
+.container .section-skill p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bd-callout {
+    padding-left: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-left: 1px solid #0179d4;
+    border-left-width: 0.35rem;
+    border-radius: 0.25rem;
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 50px;
+}
+
+.icon-mini {
+    width: 40px;
+}
+
+.link {
+    color: #0179d4;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #0179d4;
+}
+
+.footer .row .col-lg-3 {
+    margin-top: 30px;
+}
+
+.footer .row .col-lg-3 .brand {
+    color: #0179d4;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 .brand span {
+    color: #000;
+}
+
+.footer .row .col-lg-3 .parent {
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer .row .col-lg-3 ul li {
+    margin-bottom: 8px;
+}
+
+.footer .row .col-lg-3 ul li a {
+    font-weight: 300;
+    font-size: 16px;
+    color: #a8a8a8;
+}
+
+.footer .text-center {
+    margin-bottom: 40px;
+}
+
+.footer .text-center p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #a8a8a8;
+}
